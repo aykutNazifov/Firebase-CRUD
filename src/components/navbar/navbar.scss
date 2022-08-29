@@ -1,0 +1,36 @@
+.nav {
+  background-color: #1b264f;
+  color: #f5f3f5;
+  width: 100%;
+  height: 60px;
+  padding: 0 60px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    list-style: none;
+
+    .logout {
+      padding: 10px 20px;
+      border: none;
+      background-color: red;
+      color: #fff;
+      outline: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    li {
+      font-size: 22px;
+      transition: 0.3s all ease-in;
+
+      &:hover {
+        background-color: #1545f5;
+        width: 50%;
+        border-radius: 50%;
+      }
+    }
+  }
+}
